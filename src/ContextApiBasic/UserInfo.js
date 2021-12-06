@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import UserContext from './UserContext';
 
-const UserInfo = ({ username }) => {
+const UserInfo = () => {
+  const username = useContext(UserContext);
   return <span>{username}</span>;
 };
 

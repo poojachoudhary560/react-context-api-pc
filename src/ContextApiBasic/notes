@@ -3,3 +3,5 @@
 -- the provider extracted from context
 -- the consumer
 
+- when the context value is changed by altering the prop of the context provider, then all of its consumers are notified and re-rendered.
+

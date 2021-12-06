@@ -1,10 +1,10 @@
 import React from 'react';
 import UserInfo from './UserInfo';
 
-const Header = ({ username }) => {
+const Header = () => {
   return (
     <header>
-      <UserInfo username={username} />
+      <UserInfo />
     </header>
   );
 };
