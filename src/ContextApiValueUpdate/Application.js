@@ -9,10 +9,11 @@ const Application = (props) => {
   return (
     <CustomerContext.Provider value={value}>
       <div>
-        <p>Context called 1 </p>
+        <p>Context 1 called</p>
         <Layout>Layout Component Called</Layout>
       </div>
       <div>
+        <p>Context 2 called</p>
         <CustomerNameInput />
       </div>
     </CustomerContext.Provider>
