@@ -5,3 +5,8 @@
 
 - when the context value is changed by altering the prop of the context provider, then all of its consumers are notified and re-rendered.
 
+- Updating the context
+The React Context API is stateless by default and  does not provide a dedicated method to update the context value from consumer components.
+
+But this can be easily implemented by integrating a state management mechanism like useState or useReducer hooks and providing an update function right in the context next to value itself.
+
