@@ -1,0 +1,5 @@
+- applying react context requires 3 actors: 
+-- the context
+-- the provider extracted from context
+-- the consumer
+
